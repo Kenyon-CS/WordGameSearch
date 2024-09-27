@@ -53,6 +53,11 @@ int main() {
     std::cout << "\nSolved Puzzle:\n" << std::endl;
     printSolution(grid, foundPositions);
 
+    std::cout << "\Words found:\n" << std::endl;
+    for (auto w: words) {
+        std::cout << w << std::endl;
+    }
+
     return 0;
 }
 
